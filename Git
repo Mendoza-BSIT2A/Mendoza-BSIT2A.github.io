@@ -1,4 +1,5 @@
-git add index.html
-git commit -m "Updated image paths in index.html"
+git add .
+git commit -m "Added photos.html and images"
 git push origin main
+
 
