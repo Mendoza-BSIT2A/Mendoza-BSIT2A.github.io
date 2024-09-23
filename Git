@@ -1,3 +1,4 @@
-git add Gwy
-git commit -m "Added Gwy folder with images"
+git add index.html
+git commit -m "Updated image paths"
 git push origin main
+
