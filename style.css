@@ -25,3 +25,34 @@ p.time {
 h1, h2, p, li {
     font-family: Helvetica;
 }
+
+body {
+    font-family: Georgia;
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.about-me {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h1 {
+    color: Azure;
+}
