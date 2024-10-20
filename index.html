@@ -1,108 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        body {
-            background-color: pink;
-            text-align: center;
-        }
-        .container {
-            background-color: white;
-            border: 2px solid black;
-            width: 50%;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            position: relative;
-            overflow: hidden;
-        }
-        img.round {
-            border-radius: 50%;
-            width: 150px; 
-            height: 150px; 
-            object-fit: cover; 
-            margin: 10px; 
-        }
-        hr {
-            border: 1px solid #000;
-        }
-        h1 {
-            color: rgb(255, 0, 0);
-        }
-        .favorites h1 {
-            color: rgb(0, 0, 255);
-        }
-        .school-projects h1 {
-            color: rgb(238, 130, 238);
-        }
-        .about-me h1 {
-            color: rgb(60, 179, 113);
-        }
-        .logo-container {
-            margin-bottom: 20px;
-        }
-        .logo-container img {
-            width: 150px; 
-        }
-        .logo-container h1 {
-            margin-top: 10px;
-            font-size: 1.5em;
-            color: rgb(0, 0, 0);
-        }
-        .image-row {
-            display: flex;
-            justify-content: center; 
-            flex-wrap: wrap; 
-        }
-    </style>
-</head>
-<body>
-<div class="container">
-    <hr>
-    <div class="logo-container">
-        <img src="uic-logo2.png" alt="uic-logo2">
-        <p>University of the Immaculate Conception</p>
-    </div>
-    <p>Father Selga Street, Davao City</p>
-    <hr>
-    <img src="Me.jfif" class="round" alt="Me">
-    <div class="about-me">
-        <h1>&#128571; ABOUT ME &#128571;</h1>
-        <p>Hi! I'm Kyzyll Gwen O. Mendoza, 19 years of age and I am a second year college student of Bachelor in Science in Information and Technology.</p>
-    </div>
-    <hr>
-    <div class="image-row">
-        <img src="makeup.jpg" class="round" alt="makeup">
-        <img src="newjeans.jpg" class="round" alt="newjeans">
-        <img src="BP.jpg" class="round" alt="BP">
-    </div>
-    <div class="favorites">
-        <h1>&#129299; FAVORITES &#129299;</h1>
-        <iframe width="352" height="200" src="https://www.youtube.com/embed/vCJ6U7mQmYw?si=_-E7cLjza0hmgVk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p> Makeup Tutorial</p>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2DwUdMJ5uxv20EhAildreg?utm_source=generator" width="352" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        <p> NewJeans</p>
-        <iframe width="352" height="200" src="https://www.youtube.com/embed/mh4R-WXRhQo?si=jvbjf5Izy1ymyD6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p> Business Proposal</p>
-        <p>One of my favorite things to do is to do my makeup routine and such. Moreover, My recent favorite kpop group is NewJeans, and my most favorite korean drama that I've watched several times is Business Proposal</p>
-    </div>
-    <hr>
-    <div class="school-projects">
-        <h1> &#129392; SCHOOL PROJECTS  &#129392;</h1>
-        <p>Last school year, we did a lot of school projects which were so difficult and somehow confusing to do, but at the same time, it was really fun to explore things that are new to my vocabulary.</p>
-    </div>
-    <hr>
-    <div class="my-talents">
-        <h1>&#129321; MY TALENTS &#129321;</h1>
-        <p>I don't have a lot of talents but somehow I know how to sing.</p>
-    </div>
-    <a href = "fashionblog.html">Link to fashionblog</a>
-    <h1></h1>
-    <a href = "healthyrecipe.html">Link to healthyrecipe</a>
-    <h1></h1>
-    <a href= "woodruff.html">Link to Woodruff Portfolio</a>
-    <hr>
-</div>
-</body>
-</html>
+<html>
 
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Sign in to start</h1>
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
+
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
+
+            <div class="wrap">
+                    
+                        <a href="home.html" class="btn">Sign in</a> 
+                    
+                </div>
+            </form>
+    </div>
+</body>
+
+</html>
