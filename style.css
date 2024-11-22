@@ -252,11 +252,6 @@ span {
     color: white; /* Default text color */
 }
 
-.AboutMe-img {
-    border-radius: 50%; /* Circular container */
-    overflow: hidden; /* Ensures image stays within bounds */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Add shadow to the image */
-}
 
 .AboutMe-img img {
     width: 400px; /* Set width */
@@ -268,6 +263,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 80px;
 }
 
 .AboutMe-img img:hover {
